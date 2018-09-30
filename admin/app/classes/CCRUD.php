@@ -21,6 +21,6 @@ class CCRUD extends MCRUD
 
     public function updatePage($id, $data)
     {
-        $result = $this->updatePageData($id, $data);
+        $this->updatePageData($id, $data);
     }
 }
